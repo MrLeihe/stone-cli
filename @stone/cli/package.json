@@ -1,22 +1,26 @@
 {
-  "name": "@stone/cli",
+  "name": "@stonejs/cli",
   "version": "1.0.0",
   "description": "One line of command to improve working efficiency",
-  "main": "index.js",
   "bin": {
     "stone": "bin/stone.js"
   },
-  "directories": {
-    "lib": "lib"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrLeihe/stone-cli.git",
+    "directory": "@stonejs/cli"
   },
-  "scripts": {
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -p"
+  "keywords": [
+    "cli"
+  ],
+  "author": "stone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrLeihe/stone-cli/issues"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "engines": {
-    "node": ">=8.9"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "dependencies": {
     "commander": "^4.1.0",
@@ -25,5 +29,8 @@
     "open": "^7.0.0",
     "qrcode": "^1.4.4",
     "semver": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=8.9"
   }
 }

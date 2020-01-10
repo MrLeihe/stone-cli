@@ -18,7 +18,7 @@ function checkNodeVersion(wanted, id) {
     }
 }
 
-checkNodeVersion(requiredVersion, '@stone/cli')
+checkNodeVersion(requiredVersion, '@stonejs/cli')
 
 if (semver.satisfies(process.version, '9.x')) {
     console.log(chalk.red(
@@ -33,7 +33,7 @@ const program = require('commander')
 const minimist = require('minimist')
 
 program
-    .version(`stone-cli ${require('../package.json').version}`)
+    .version(`stonejs-cli ${require('../package.json').version}`)
     .usage('<command> [options]')
 
 program
