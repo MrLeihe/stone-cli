@@ -1,0 +1,37 @@
+{
+  "name": "stone-cli",
+  "version": "1.0.0",
+  "description": "One line of command to improve working efficiency",
+  "main": "index.js",
+  "bin": {
+    "stone": "bin/stone.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "commander": "^4.1.0",
+    "inquirer": "^7.0.3",
+    "minimist": "^1.2.0",
+    "open": "^7.0.0",
+    "qrcode": "^1.4.4",
+    "semver": "^7.1.1"
+  }
+}

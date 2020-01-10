@@ -1,27 +1,22 @@
 {
-  "name": "stone-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "bin": {
-    "stone-cli": "stone.js"
-  },
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "change-log": "conventional-changelog -p angular -i CHANGELOG.md -s -p"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -p"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cz-conventional-changelog": "^3.0.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrLeihe/stone-cli.git"
   },
+  "bugs": {
+    "url": "https://github.com/MrLeihe/stone-cli/issues"
+  },
+  "homepage": "https://github.com/MrLeihe/stone-cli#readme",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "version": "0.0.0"
 }
