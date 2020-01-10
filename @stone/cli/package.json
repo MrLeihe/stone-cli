@@ -1,5 +1,5 @@
 {
-  "name": "stone-cli",
+  "name": "@stone/cli",
   "version": "1.0.0",
   "description": "One line of command to improve working efficiency",
   "main": "index.js",
@@ -15,16 +15,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "cz-conventional-changelog": "^3.0.2"
-  },
   "engines": {
     "node": ">=8.9"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "dependencies": {
     "commander": "^4.1.0",
